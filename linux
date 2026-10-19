@@ -1,0 +1,78 @@
+# My Linux Learning Notes
+
+## 1. Introduction to Linux
+- Linux is an open-source operating system.
+- Linux is widely used in servers, cloud computing, and DevOps.
+- Linux supports multiple users and multitasking.
+
+## 2. Linux Architecture
+- Hardware
+- Kernel
+- Shell
+- System Utilities
+- Applications
+
+## 3. Linux Directories
+- / : Root directory
+- /home : User home directories
+- /etc : Configuration files
+- /var : Logs and variable data
+- /tmp : Temporary files
+- /bin : Essential commands
+- /root : Root user's home directory
+
+## 4. Basic Linux Commands
+- pwd : Show current directory
+- ls : List files and directories
+- cd : Change directory
+- mkdir : Create directory
+- touch : Create an empty file
+- cat : Display or combine file contents
+- cp : Copy files and directories
+- mv : Move or rename files
+- rm : Remove files
+- rmdir : Remove empty directories
+
+## 5. Viewing and Editing Files
+- cat filename : Display file contents
+- cat > filename : Write or overwrite file contents
+- cat >> filename : Append content
+- nano filename : Edit a file using Nano
+- vim filename : Edit a file using Vim
+
+## 6. Searching and Locating Commands
+- grep : Search for text in files
+- grep -i : Search without case sensitivity
+- which : Locate an executable command
+
+## 7. Users and Groups
+- useradd : Create a user
+- groupadd : Create a group
+- id : Display user and group IDs
+- whoami : Display current username
+
+## 8. Links
+- ln : Create a hard link
+- ln -s : Create a symbolic link
+
+## 9. File Permissions
+- chmod : Change file permissions
+- chown : Change file ownership
+- r = 4 : Read permission
+- w = 2 : Write permission
+- x = 1 : Execute permission
+- 755 = rwx r-x r-x
+- 644 = rw- r-- r--
+
+## 10. Archives
+- tar : Archive multiple files and directories
+- tar -cvf : Create an archive
+- tar -xvf : Extract an archive
+- tar -czvf : Create a compressed tar.gz archive
+
+## 11. Package Management
+- apt update : Update package lists
+- apt install package-name : Install a package
+- apt remove package-name : Remove a package
+- which command-name : Locate a commands.
+
